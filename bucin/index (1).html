@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>heart bubbles</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ======== HUJAN HATI DI SINI ======== -->
+<div class="hearts"></div>
+<!-- ==================================== -->
+
+<div class="wrapper">
+    <div class="env"></div>
+    <img src="./heart.png" alt="">
+    <div class="lettre">
+        <div>
+            JANGAN BADMOOD  <br>
+             LAGI YAAA <br>
+            ANDIRAAAA
+            ❤
+        </div>
+    </div>
+    <div class="front"></div>
+</div>
+
+<!-- ======== SCRIPT GENERATOR HATI ======== -->
+<script>
+  const heartsContainer = document.querySelector('.hearts');
+
+  for (let i = 0; i < 30; i++) {
+    const heart = document.createElement('span');
+    heart.innerHTML = "❤";
+    heartsContainer.appendChild(heart);
+  }
+</script>
+<!-- ======================================= -->
+
+</body>
+</html>
+ 
